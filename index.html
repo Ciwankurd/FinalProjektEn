@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns:font-size="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAFETY DRIVE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!--=================body========================-->
+<script>
+    function myFunction() {
+        var element = document.getElementById("deuter");
+        var element2 = document.getElementById("deu2");
+        var element3 = document.getElementById("deu3");
+        var element4 = document.getElementById("deu4");
+        element.classList.toggle("deuteranopia");
+        element2.classList.toggle("deuteranopia");
+        element3.classList.toggle("deuteranopia");
+        element4.classList.toggle("deuteranopia");
+
+
+
+
+
+    }
+</script>
+<body>
+<button onclick="myFunction()">deuteranopia mode</button>
+
+  <header>
+      <img src="image/logo3.png" class="logo">
+      <div class="bg-div sticky">
+          <a href="index.html">
+          <img id="deuter" class="logo-img" src="image/logo3.png" alt="logo" width="269" height="75" ALT="align box" ALIGN=CENTER>
+          </a>
+
+          <nav>
+
+            <ul>
+
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Problemstilling.html">ISSUE</a></li>
+                <li><a href="Løsning.html">SOLUTION</a></li>
+                <li><a href="Funksjon.html">FUNCTION</a></li>
+                <li><a href="OmOss.html">ABOUT</a></li>
+
+              </ul>
+
+            </nav>
+
+        </div>
+  </header>
+
+<!--=================mainconten==================--->
+<div class="mainContainer">
+    <div>
+        <section>
+            <div id="deu3" class="bottun">
+                <a href="index.html"> <img  src="image/English%20flag%20button.png" height="35" width="35"></a>
+                <a href="Funksjon.html"><img src="image/Norsk%20flag%20button.png"  height="35" width="30"></a>
+            </div>
+            <article>
+
+                <header>
+
+                    <p class="fontStyle">SAFETY DRIVE</p>
+                    <p style="font-size: 25px">APPEN SOM REDDER DITT LIVE OG ANDRE</p>
+                    <img id="deu2" class="image-post" alt="Sefty drive app on car's screen" src="image/post4.png">
+                    <p style="font-size: 25px">WHY OUR APP!</p>
+                </header>
+                <figure class="smallbox">
+                    <h1>Auto-Connection</h1>
+                    <p>the App sends a message automatically
+                        <br>to ambulance, police, hospital ..
+                    </p>
+                </figure>
+                <figure class="smallbox">
+                    <h1>SIREN LIGHT</h1>
+
+                    <p>to show signal to other drivers
+                        <br> to take attention and reduce the speed.
+                    </p>
+
+                </figure>
+                <figure class="smallbox">
+                    <h1>ABS SYSTEM</h1>
+                    <p>The APP sends a signal to ABS to break if the driver gets heart-attack</p>
+                </figure>
+                <figure class="smallbox">
+                    <h1>FINGER-SENSOR</h1>
+                    <p>A sensor sets up on wheel to measure blood pressure and send signal to the App</p>
+                </figure>
+            </article>
+        </section>
+    </div>
+</div>
+
+<!------------------footer-------------------->
+<footer>
+    <p>SAFTEY DRIVE | NEW INNOVATION WAY | OSLOMETStudenter GROUP 52 | <a href=#>Kilder</a></p>
+    <article style="text-align: center">
+        <p >Contact</p>
+    </article>
+</footer>
+
+</body>
+</html>
